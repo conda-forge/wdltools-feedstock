@@ -1,5 +1,5 @@
 {% set name = "wdlTools" %}
-{% set version = "0.3.0" %}
+{% set version = "0.12.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dnanexus-rnd/wdlTools/archive/{{ version }}.tar.gz
-  sha256: 115fd4ce8ae76e2963b284617bc14c72f494b11a4bef51c67baabd95d2a01974
+  sha256: 6921bc8ac5404bd91c9564c2a064722a0f8dc6f245194f7ecdc604e1261e871e
 
 build:
   skip: true  # [not unix]
