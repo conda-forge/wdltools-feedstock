@@ -5,11 +5,11 @@ Home: https://github.com/dnanexus-rnd/wdlTools
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wdltools-feedstock/blob/master/LICENSE.txt)
 
 Summary: Scala programming language library for parsing WDL, and command-line tools for type-checking, code formatting, and more.
 
-
+Development: https://github.com/dnanexus-rnd/wdlTools
 
 Current build status
 ====================
