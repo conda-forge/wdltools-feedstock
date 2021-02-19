@@ -1,5 +1,5 @@
 {% set name = "wdlTools" %}
-{% set version = "0.12.4" %}
+{% set version = "0.12.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dnanexus-rnd/wdlTools/archive/{{ version }}.tar.gz
-  sha256: 6921bc8ac5404bd91c9564c2a064722a0f8dc6f245194f7ecdc604e1261e871e
+  sha256: de3e7f0111875584958d19d1416ef0f98a7cd6362f736d6f3dfd0f9c6ccc39fe
 
 build:
   skip: true  # [not unix]
@@ -32,7 +32,7 @@ about:
   home: https://github.com/dnanexus-rnd/wdlTools
   license: Apache-2.0
   license_file: LICENSE
-  summary: 'Scala programming language library for parsing WDL, and command-line tools for type-checking, code formatting, and more.'
+  summary: Scala programming language library for parsing WDL, and command-line tools for type-checking, code formatting, and more.
   dev_url: https://github.com/dnanexus-rnd/wdlTools
 
 extra:
