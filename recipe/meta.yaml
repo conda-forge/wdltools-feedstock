@@ -8,7 +8,6 @@ package:
 source:
   url: https://github.com/dnanexus-rnd/wdlTools/archive/{{ version }}.tar.gz
   sha256: dd0c92e26e8209078c2be7771397f649da86692214625f315bd9936e995a5d9e
-
 build:
   skip: true  # [not unix]
   number: 0
